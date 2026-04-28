@@ -4,7 +4,7 @@
 
 Airport Booking System is a Python-based flight booking and visualization project. The system models airports, customers, flight segments, trips, seat bookings, frequent flyer status, and flight filtering. It uses CSV datasets to load airports, customers, available flight segments, and customer trip requests.
 
-The application also includes a visual map interface that displays booked flight routes across the world. Users can filter displayed flights by customer, duration, location, date, or trip reservation ID.
+The application is also presented in the program as Python Air's Frequent Flyer System. It includes a visual map interface that displays booked flight routes across the world. Users can filter displayed flights by customer, duration, location, date, or trip reservation ID.
 
 This project was created for a CSC148 software design assignment and demonstrates object-oriented programming, data processing, file parsing, filtering, testing, and visualization.
 
@@ -80,7 +80,7 @@ pip install pygame pytest python-ta
 python application.py
 ```
 
-The application starts by loading the CSV data, creating airports, flight segments, customers, and trips, then opens the visualizer.
+By default, `application.py` loads `segments_small.csv` and `trips_small.csv`. To use the full dataset, edit `application.py` and switch to `segments.csv` and `trips.csv`.
 
 ## Main File
 
@@ -347,7 +347,7 @@ Filters flight segments by duration.
 Input format:
 
 ```text
-L#### 
+L####
 G####
 ```
 
